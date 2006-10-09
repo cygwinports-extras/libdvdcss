@@ -1,0 +1,76 @@
+libdvdcss
+------------------------------------------
+libdvdcss is a simple library designed for accessing DVDs like a block
+device without having to bother about the decryption.
+
+Runtime requirements:
+  cygwin-1.5.21-2
+
+Build requirements:
+  cygwin-1.5.21-2
+  autoconf2.5-2.59-2
+  automake1.9-1.9.6-1
+  binutils-20060709-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.22-1
+  make-3.81-1
+  sed-4.1.5-1
+  w32api-3.7-1
+
+Canonical website:
+  http://developers.videolan.org/libdvdcss/
+
+Canonical download:
+  http://download.videolan.org/pub/libdvdcss/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libdvdcss-1.2.9-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libdvdcss-1.2.9-X.cygport all
+
+This will create:
+  /usr/src/libdvdcss-1.2.9-X-src.tar.bz2
+  /usr/src/libdvdcss-1.2.9-X.tar.bz2
+  /usr/src/libdvdcss-devel-1.2.9-X.tar.bz2
+  /usr/src/libdvdcss2-1.2.9-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libdvdcss)
+  /usr/share/doc/Cygwin/libdvdcss-1.2.9.README
+  /usr/share/doc/libdvdcss-1.2.9/AUTHORS
+  /usr/share/doc/libdvdcss-1.2.9/ChangeLog
+  /usr/share/doc/libdvdcss-1.2.9/COPYING
+  /usr/share/doc/libdvdcss-1.2.9/INSTALL
+  /usr/share/doc/libdvdcss-1.2.9/NEWS
+  /usr/share/doc/libdvdcss-1.2.9/README
+
+(libdvdcss2)
+  /usr/bin/cygdvdcss-2.dll
+
+(libdvdcss-devel)
+  /usr/include/dvdcss/dvdcss.h
+  /usr/lib/libdvdcss.a
+  /usr/lib/libdvdcss.dll.a
+  /usr/lib/libdvdcss.la
+
+------------------
+
+Port Notes:
+
+----- version 1.2.9-2 -----
+Rebuilt with cygport.
+
+----- version 1.2.9-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
