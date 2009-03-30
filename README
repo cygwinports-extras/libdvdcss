@@ -4,19 +4,20 @@ libdvdcss is a simple library designed for accessing DVDs like a block
 device without having to bother about the decryption.
 
 Runtime requirements:
-  cygwin-1.5.25-15
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
 
 Build requirements:
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.0-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.2-2
-  make-3.81-1
-  sed-4.1.6-1
-  w32api-3.11-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-11
+  make-3.81-2
+  sed-4.1.5-2
+  w32api-3.13-1
 
 Canonical website:
   http://developers.videolan.org/libdvdcss/
@@ -35,7 +36,6 @@ Build instructions:
 
 This will create:
   /usr/src/libdvdcss-1.2.10-X-src.tar.bz2
-  /usr/src/libdvdcss-1.2.10-X.tar.bz2
   /usr/src/libdvdcss-devel-1.2.10-X.tar.bz2
   /usr/src/libdvdcss2-1.2.10-X.tar.bz2
 
@@ -45,12 +45,11 @@ Files included in the binary packages:
 
 (libdvdcss2)
   /usr/bin/cygdvdcss-2.dll
-  /usr/share/doc/libdvdcss-1.2.10/AUTHORS
-  /usr/share/doc/libdvdcss-1.2.10/ChangeLog
-  /usr/share/doc/libdvdcss-1.2.10/COPYING
-  /usr/share/doc/libdvdcss-1.2.10/INSTALL
-  /usr/share/doc/libdvdcss-1.2.10/NEWS
-  /usr/share/doc/libdvdcss-1.2.10/README
+  /usr/share/doc/libdvdcss/AUTHORS
+  /usr/share/doc/libdvdcss/ChangeLog
+  /usr/share/doc/libdvdcss/COPYING
+  /usr/share/doc/libdvdcss/NEWS
+  /usr/share/doc/libdvdcss/README
 
 (libdvdcss-devel)
   /usr/include/dvdcss/dvdcss.h
@@ -62,14 +61,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 1.2.10-2 -----
-Version bump.
-
------ version 1.2.9-2 -----
-Rebuilt with cygport.
-
------ version 1.2.9-1 -----
-Initial release for Cygwin.
+----- version 1.2.10-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

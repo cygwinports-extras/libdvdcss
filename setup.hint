@@ -1,5 +1,4 @@
-category: _source
-external-source: libdvdcss
+category: Video
 sdesc: "Library for accessing DVDs as block device (source)"
 ldesc: "libdvdcss is a simple library designed for accessing DVDs like a
 block device without having to bother about the decryption."
