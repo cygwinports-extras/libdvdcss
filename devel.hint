@@ -1,5 +1,5 @@
 category: Video
-requires: cygwin libdvdcss2
+requires: libdvdcss2
 external-source: libdvdcss
 sdesc: "Library for accessing DVDs as block device (development)"
 ldesc: "libdvdcss is a simple library designed for accessing DVDs like a
