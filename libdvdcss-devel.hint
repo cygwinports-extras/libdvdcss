@@ -1,6 +1,0 @@
-category: Video
-requires: libdvdcss2
-external-source: libdvdcss
-sdesc: "Library for accessing DVDs as block device (development)"
-ldesc: "libdvdcss is a simple library designed for accessing DVDs like a
-block device without having to bother about the decryption."

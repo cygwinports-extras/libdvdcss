@@ -1,0 +1,13 @@
+NAME="libdvdcss"
+VERSION=1.2.11
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="Library for accessing DVDs as block device"
+DESCRIPTION="libdvdcss is a simple library designed for accessing DVDs like a
+block device without having to bother about the decryption."
+HOMEPAGE="http://developers.videolan.org/libdvdcss/"
+SRC_URI="http://download.videolan.org/pub/libdvdcss/${VERSION}/${NAME}-${VERSION}.tar.bz2"
+
+PKG_NAMES="${NAME}2 ${NAME}-devel"
+libdvdcss2_CONTENTS="usr/bin/*-2.dll usr/share/doc/"
+libdvdcss_devel_CONTENTS='usr/include/ usr/lib/'

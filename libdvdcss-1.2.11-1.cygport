@@ -1,7 +1,0 @@
-DESCRIPTION="Library for accessing DVDs as block device"
-HOMEPAGE="http://developers.videolan.org/libdvdcss/"
-SRC_URI="http://download.videolan.org/pub/${PN}/${PV}/${P}.tar.bz2"
-
-PKG_NAMES="${PN}2 ${PN}-devel"
-libdvdcss2_CONTENTS="usr/bin/*-2.dll usr/share/doc/"
-libdvdcss_devel_CONTENTS='usr/include/ usr/lib/'
